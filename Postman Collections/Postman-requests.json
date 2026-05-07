@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "12f09f93-5d4e-4faa-8331-55ad008fcc7c",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "firstGetRequest",
+			"id": "b165c147-f071-44b1-9d5c-930a2dd9c016",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/DemoRest/webapi/aliens"
+			},
+			"response": []
+		},
+		{
+			"name": "firstPostRequest",
+			"id": "22bf5654-3d8a-4333-ac35-ee564beb3960",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<alien>\r\n    <id>736</id>\r\n    <name>Vaibhav</name>\r\n    <points>35</points>\r\n</alien>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/alien"
+			},
+			"response": []
+		},
+		{
+			"name": "singleDataRequest",
+			"id": "aafe440f-b743-49ce-8ef9-b8c62c739e62",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/alien/393"
+			},
+			"response": []
+		},
+		{
+			"name": "gettingJSONRequest",
+			"id": "602ef329-dc00-43fd-a9ef-4f5df25c7adf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/getdata/123"
+			},
+			"response": []
+		},
+		{
+			"name": "mySQLGetRequest",
+			"id": "75aa4198-fdcd-423e-a7e0-c12b55d85950",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql"
+			},
+			"response": []
+		},
+		{
+			"name": "sendDataMySQL",
+			"id": "afd9a2ef-cfec-4583-a5de-71614d5166bf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<alien>\r\n    <id>133</id>\r\n    <name>Shashwat</name>\r\n    <points>54</points>\r\n</alien>\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql"
+			},
+			"response": []
+		},
+		{
+			"name": "fetchAllRecords",
+			"id": "ee5ca3ce-f6f5-4911-97f9-aa4d8bddc767",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\r\n"
+				},
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "3271c3aa-4912-49d7-a934-4a8844513de2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
