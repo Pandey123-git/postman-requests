@@ -281,7 +281,19 @@
 					"mode": "raw",
 					"raw": ""
 				},
-				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql/1001"
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql/706"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "c48fd882-d54c-4d14-a9b7-73cb6b2cb93c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
