@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "e68e150c-b49b-4b10-ae2e-a02fca28b7c1",
+		"name": "Practice Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fetchingAllRecords",
+			"id": "e8326ca9-8e0c-490d-8a6a-9d7e392a03c3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
+			},
+			"response": []
+		},
+		{
+			"name": "fetchSingleRecord",
+			"id": "00278505-4cd6-482b-88b9-50b3877dbb5c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish/manish/12254"
+			},
+			"response": []
+		},
+		{
+			"name": "addingListOfRecords",
+			"id": "2cc06084-8cea-4d8b-96f8-5c1eef160949",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<manishes>\r\n    <manish>\r\n        <percentage>73.0</percentage>\r\n        <rollNo>53000</rollNo>\r\n        <studentName>Prakash Yadav</studentName>\r\n    </manish>\r\n    <manish>\r\n        <percentage>73.0</percentage>\r\n        <rollNo>12832</rollNo>\r\n        <studentName>Shikha Pandey</studentName>\r\n    </manish>\r\n</manishes>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish/list"
+			},
+			"response": []
+		},
+		{
+			"name": "addingSingleRecord",
+			"id": "966b7b19-7eb6-4ed9-b3e2-70a058fb03a3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<manish>\r\n<percentage>76.0</percentage>\r\n<rollNo>84033</rollNo>\r\n<studentName>Rajni Singh</studentName>\r\n</manish>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
+			},
+			"response": []
+		}
+	]
+}
