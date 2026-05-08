@@ -230,14 +230,30 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "createResourceNotPresent",
 			"id": "aa3deec9-c95c-4b72-a418-ef76ecbab984",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<alien>\r\n    <id>1001</id>\r\n    <name>Doraemon</name>\r\n    <points>100</points>\r\n</alien>\r\n\r\n"
+				},
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql"
 			},
 			"response": []
 		}
