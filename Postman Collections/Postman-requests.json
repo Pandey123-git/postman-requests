@@ -167,18 +167,6 @@
 				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql"
 			},
 			"response": []
-		},
-		{
-			"name": "New Request",
-			"id": "3271c3aa-4912-49d7-a934-4a8844513de2",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
 		}
 	]
 }
