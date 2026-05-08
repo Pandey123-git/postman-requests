@@ -169,14 +169,34 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "sendingDataInFormat",
 			"id": "72cd640b-0b8f-4601-93c9-56cb5e91905a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<alien>\r\n<id>979</id>\r\n<name>Paresh</name>\r\n<points>98</points>\r\n</alien>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
 				"url": "http://localhost:8080/DemoRest/webapi/aliens"
 			},
 			"response": []
