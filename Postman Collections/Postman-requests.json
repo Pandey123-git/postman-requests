@@ -200,6 +200,18 @@
 				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql"
 			},
 			"response": []
+		},
+		{
+			"name": "usingPUTRequest",
+			"id": "3b21a8c5-2071-4537-b49a-e5892a9a929e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
