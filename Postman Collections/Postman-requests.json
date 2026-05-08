@@ -251,9 +251,21 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "<alien>\r\n    <id>1001</id>\r\n    <name>Doraemon</name>\r\n    <points>100</points>\r\n</alien>\r\n\r\n"
+					"raw": "<alien>\r\n    <id>1002</id>\r\n    <name>Mayank</name>\r\n    <points>80</points>\r\n</alien>\r\n\r\n"
 				},
 				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql"
+			},
+			"response": []
+		},
+		{
+			"name": "usingDeleteRequest",
+			"id": "bd07e782-f66e-4ec4-80fc-d22fefa3050c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": []
 			},
 			"response": []
 		}
