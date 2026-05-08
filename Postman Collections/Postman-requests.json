@@ -179,21 +179,16 @@
 				"header": [
 					{
 						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json",
+						"value": "application/xml",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"447\",\r\n    \"name\": \"Suyog\",\r\n    \"points\": 99\r\n}",
+					"raw": "<alien>\r\n    <id>746</id>\r\n    <name>Raju</name>\r\n    <points>82</points>\r\n</alien>",
 					"options": {
 						"raw": {
-							"language": "json"
+							"language": "xml"
 						}
 					}
 				},
