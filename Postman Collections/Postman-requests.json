@@ -265,7 +265,23 @@
 			},
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "http://localhost:8080/DemoRest/webapi/aliens/mysql/1001"
 			},
 			"response": []
 		}
