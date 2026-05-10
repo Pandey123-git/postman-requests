@@ -141,6 +141,34 @@
 				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
 			},
 			"response": []
+		},
+		{
+			"name": "deleteMethodUsed",
+			"id": "e74b8757-deea-4951-bb5d-04c3f6ca1ba9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<manish>\r\n<percentage>86.0</percentage>\r\n<rollNo>84033</rollNo>\r\n<studentName>Rajni Singh</studentName>\r\n</manish>"
+				},
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
+			},
+			"response": []
 		}
 	]
 }
