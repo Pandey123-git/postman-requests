@@ -131,7 +131,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "<manish>\r\n<percentage>89.0</percentage>\r\n<rollNo>98311</rollNo>\r\n<studentName>Monu Singh</studentName>\r\n</manish>",
+					"raw": "<manish>\r\n<percentage>99.0</percentage>\r\n<rollNo>98311</rollNo>\r\n<studentName>Monu Singh</studentName>\r\n</manish>",
 					"options": {
 						"raw": {
 							"language": "xml"
@@ -171,7 +171,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "patchMethodUsed",
 			"id": "3079c15d-d003-4343-9b6c-d47f0e868d95",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
