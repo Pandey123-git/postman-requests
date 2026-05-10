@@ -110,13 +110,13 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "putMethodUsed",
 			"id": "df1723b3-ec03-464d-b650-6a1ca2c8bcf3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
+				"method": "PUT",
 				"header": [
 					{
 						"key": "Accept",
@@ -129,6 +129,15 @@
 						"type": "text"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "<manish>\r\n<percentage>86.0</percentage>\r\n<rollNo>84033</rollNo>\r\n<studentName>Rajni Singh</studentName>\r\n</manish>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
 				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
 			},
 			"response": []
