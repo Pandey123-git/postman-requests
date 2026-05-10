@@ -164,7 +164,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "<manish>\r\n<percentage>86.0</percentage>\r\n<rollNo>84033</rollNo>\r\n<studentName>Rajni Singh</studentName>\r\n</manish>"
+					"raw": ""
 				},
 				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
 			},
