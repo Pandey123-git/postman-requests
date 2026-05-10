@@ -108,6 +108,30 @@
 				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "df1723b3-ec03-464d-b650-6a1ca2c8bcf3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
+			},
+			"response": []
 		}
 	]
 }
