@@ -177,8 +177,29 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<manish>\r\n<percentage>86.0</percentage>\r\n<rollNo>84033</rollNo>\r\n</manish>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
 			},
 			"response": []
 		}
