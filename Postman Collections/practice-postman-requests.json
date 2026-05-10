@@ -131,7 +131,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "<manish>\r\n<percentage>86.0</percentage>\r\n<rollNo>84033</rollNo>\r\n<studentName>Rajni Singh</studentName>\r\n</manish>",
+					"raw": "<manish>\r\n<percentage>89.0</percentage>\r\n<rollNo>98311</rollNo>\r\n<studentName>Monu Singh</studentName>\r\n</manish>",
 					"options": {
 						"raw": {
 							"language": "xml"
@@ -166,7 +166,7 @@
 					"mode": "raw",
 					"raw": ""
 				},
-				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish"
+				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish/34244"
 			},
 			"response": []
 		}
