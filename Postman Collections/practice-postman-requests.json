@@ -169,6 +169,18 @@
 				"url": "http://localhost:8080/FirstRestPracticeProject/webapi/manish/34244"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "3079c15d-d003-4343-9b6c-d47f0e868d95",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
